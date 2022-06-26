@@ -20,4 +20,9 @@ mary.PrintState();
 Car daisy = new Car("Daisy", 75);
 daisy.PrintState();
 
+Motorcycle c = new Motorcycle(5);
+c.SetDriverName("Tiny");
+c.PopAWheely();
+Console.WriteLine($"Rider name is {c.driverName}");
+
 Console.ReadLine();
